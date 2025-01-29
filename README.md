@@ -1,9 +1,10 @@
 ```mermaid
 graph TD
-    A[Océans] -->|Évaporation| B[Nuages]
-    B -->|Condensation| C[Précipitation]
-    C -->|Pluie| D[Sol]
-    D -->|Ruissellement| A
-    D -->|Infiltration| E[Eaux souterraines]
-    E -->|Sources| A
-```
+    A[الشمس] --> B[الطاقة الضوئية]
+    B --> C[النباتات<br>(البناء الضوئي:<br>CO₂ → مركبات عضوية)]
+    C --> D[العواشب<br>(تستهلك النباتات)]
+    D --> E[اللواحم<br>(تستهلك العواشب)]
+    E --> F[الكائنات الميتة<br>(بقايا عضوية)]
+    F --> G[المُحلِّلات<br>(الفطريات والبكتيريا)]
+    G --> H[إطلاق CO₂<br>والمعادن إلى التربة]
+    H --> C
